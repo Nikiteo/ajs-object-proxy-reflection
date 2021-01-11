@@ -1,0 +1,36 @@
+{
+  "name": "ajs-object-proxy-reflection",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "index.js",
+  "scripts": {
+    "test-cov": "jest --coverage",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikiteo/ajs-object-proxy-reflection.git"
+  },
+  "author": "Nikiteo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikiteo/ajs-object-proxy-reflection/issues"
+  },
+  "homepage": "https://github.com/Nikiteo/ajs-object-proxy-reflection#readme",
+  "devDependencies": {
+    "@babel/cli": "7.12.10",
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "babel-jest": "26.6.3",
+    "babel-loader": "8.2.2",
+    "core-js": "3.8.2",
+    "eslint": "7.17.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "jest": "26.6.3",
+    "webpack": "4.45.0",
+    "webpack-cli": "4.3.1"
+  }
+}
